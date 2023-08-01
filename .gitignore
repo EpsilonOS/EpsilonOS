@@ -1,0 +1,5 @@
+**limine/
+**/*.o
+**/*.d
+**/*.elf
+**/limine.h
