@@ -27,3 +27,6 @@ kernel.iso: kernel.bin
 
 	grub-mkrescue --output=$@ iso
 	rm -rf iso
+
+clean:
+	rm -rf *.o *.bin *.iso
